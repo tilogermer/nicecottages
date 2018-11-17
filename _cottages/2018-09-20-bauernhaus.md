@@ -1,6 +1,6 @@
 ---
 layout: cottage
-title: "Old Stone Cottage"
+title: "Old Bauernhaus"
 desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 thumb: "/images/uploads/old-stone-cottage-thumb.jpg"
 addr:
