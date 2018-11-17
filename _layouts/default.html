@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}} · {% endif %}RealCottages{% unless page.title %} · {{site.data.site.seo.tagline}} · {{site.data.site.location.locality}}, {{site.data.site.location.country}}{% endunless %}</title>
+  <meta name="description" content="{{page.desc}}">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700" rel="stylesheet">
+</head>
+<body>
+
+  {% include patterns/masthead/masthead.html %}
+
+  {{content}}
+
+  {% include patterns/footer/footer.html %}
+  {% include metadata/real-estate-agent.html %}
+
+</body>
+</html>
